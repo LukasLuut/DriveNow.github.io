@@ -69,7 +69,7 @@ scrollToTopBtn.addEventListener("click", function () {
         behavior: "smooth",
     });
 });
-
+//---------------------------------------------------------
 var btn = document.querySelector('#show-or-hide'); 
 var container = document.querySelector('#container')
 
@@ -80,5 +80,62 @@ btn.addEventListener('click', function(){
     }
     else{
         container.style.display='flex';
+    }
+})
+//-----------------------------------------------------------
+
+var btn1 = document.querySelector('#show-or-hide1'); 
+var container1 = document.querySelector('#container1')
+
+btn1.addEventListener('click', function(){
+    if(container1.style.display==='flex'){
+        container1.style.display='none';
+        
+    }
+    else{
+        container1.style.display='flex';
+    }
+})
+//-----------------------------------------------------------
+
+var btn2 = document.querySelector('#show-or-hide2'); 
+var container2 = document.querySelector('#container2')
+
+btn2.addEventListener('click', function(){
+    if(container2.style.display==='block'){
+        container2.style.display='none';
+        
+    }
+    else{
+        container2.style.display='block';
+    }
+})
+//-----------------------------------------------------------
+
+var btn3 = document.querySelector('#show-or-hide3'); 
+var container3 = document.querySelector('#container3')
+
+btn3.addEventListener('click', function(){
+    if(container3.style.display==='block'){
+        container3.style.display='none';
+        
+    }
+    else{
+        container3.style.display='block';
+    }
+})
+
+//-----------------------------------------------------------
+
+var btn4 = document.querySelector('#show-or-hide4'); 
+var container4 = document.querySelector('#container4')
+
+btn4.addEventListener('click', function(){
+    if(container4.style.display==='block'){
+        container4.style.display='none';
+        
+    }
+    else{
+        container4.style.display='block';
     }
 })
