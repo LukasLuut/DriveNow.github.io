@@ -151,9 +151,20 @@ nav ul li a:hover {
     
 }
 #container{
-    display: flex;
+    display: none;
 }
-
+#container1{
+    display: none;
+}
+#container2{
+    display: none;
+}
+#container3{
+    display: none;
+}
+#container4{
+    display: none;
+}
 .extra-item h3 {
     margin: 15px 0;
 }
